@@ -1,0 +1,58 @@
+
+
+.header
+{
+	position : absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+
+.header a, .header button
+{
+	margin: 5px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header button
+{
+	background: #4484f1;
+	padding: 8px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 10%;
+}
+
+input
+{
+	width :500px;
+	height: 35px;
+	margin: 4px;
+	padding: 8px;
+	border: 1px solid gray;
+	border-radius: 25px;
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.buttonholder
+{
+    position: absolute;
+	top: 49%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+

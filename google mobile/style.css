@@ -1,11 +1,33 @@
 
+html,body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+div.shadow {
+	position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:35%;
+    left:50%;
+    overflow:visible;
+}
+
+img.logo{
+	
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+
+}
 
 .header
 {
-	position : absolute;
-	top: 0px;
-	right: 0px;
-	
+	margin-top: 0%;
+	float: right;
 }
 
 .header a, .header button
@@ -18,38 +40,34 @@
 .header button
 {
 	background: #4484f1;
-	padding: 8px;
+	padding: 8px;	
 	font-size: 15px;
 	color: #fff;
 	border-radius: 10%;
 }
 
-input
+.searchbox
 {
-	width :500px;
+	width :30%;
 	height: 35px;
 	margin: 4px;
 	padding: 8px;
 	border: 1px solid gray;
 	border-radius: 25px;
-	position: absolute;
+	position: fixed;
 	top: 43%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.logo
-{
-	position: absolute;
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
+input
+{ border:0;
 }
 
 .buttonholder
-{
-    position: absolute;
+{	display: inline-block;
+	margin-right: 20px;
+    position: fixed;
 	top: 49%;
 	left: 50%;
 	transform: translate(-50%, -50%);
